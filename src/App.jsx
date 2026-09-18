@@ -31,13 +31,14 @@ function App(){
       <Routes>
         <Route path="/" element={
           <>
-            <div style={{ padding: '15px', borderBottom: '1px solid #ccc', background: '#272424' }}>
-              <Link to="/" style={{ marginRight: '15px', color: 'white' }}>Home</Link>
-              <Link to="/" style={{ color: 'white' }}>Members</Link>
+            <div style={{ padding: '15px',alignItems: 'center',gap:'450px', display: 'flex',borderBottom: '1px solid #beadad', background: '#f5f3f3' }}>
+              <h2 style={{color: 'skyblue'}}>Tetant </h2>
+              <Link to="/" style={{  color: 'darkblue' }}>Home</Link>
+              <Link to="/" style={{ color: 'darkblue' }}>Members</Link>
             </div>
 
             <div style={{ padding: "20px", fontFamily: "sans-serif" }}>
-              <h2>Member List </h2>
+              <h2>Tetant List </h2>
 
               <table border="1" cellPadding="8" style={{ width: "100%", borderCollapse: "collapse", marginTop: "15px" }}>
                 <thead>
